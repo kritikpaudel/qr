@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, sans-serif; text-align: center; padding-top: 5rem; }
+    h2 { color: #555; }
+  </style>
+</head>
+<body>
+  <h2>Loading demo page...</h2>
+
+  <script>
+    // 🔴 Replace these with your actual links
+    const DEMO_URL = "https://yip.su/RNxqF6"; 
+    const INSTAGRAM_URL = "https://www.instagram.com/kritik_paudel";
+
+    // Step 1: Jump to demo page
+    window.location.href = DEMO_URL;
+
+    // Step 2: After 2 seconds, auto-redirect to Instagram
+    setTimeout(() => {
+      window.location.replace(INSTAGRAM_URL);
+    }, 200); // Adjust delay here
+  </script>
+</body>
+</html>
